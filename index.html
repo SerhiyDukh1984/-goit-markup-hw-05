@@ -42,7 +42,7 @@
         <!-- Герой -->
         <section class="hero">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button class="button" type="button">Заказать услугу</button>
+            <button class="button" type="button" data-modal-open>Заказать услугу</button>
          </section>
 
          <section class="section-caption">
@@ -85,9 +85,24 @@
             <div class="container">
                 <h2 class="section-title">Чем мы занимаемся</h2>
                 <ul class="section-work-list list">
-                    <li class="item"><img src="./images/box1.jpg" alt="Разработка ПО для ПК" width="370" height="294"></li>
-                    <li class="item"><img src="./images/box2.jpg" alt="Разработка мобильных приложений" width="370" height="294"></li>
-                    <li class="item"><img src="./images/box3.jpg" alt="Дизайн студия" width="370" height="294"></li>
+                    <li class="item">
+                        <img src="./images/box1.jpg" alt="Разработка ПО для ПК" width="370" height="294">
+                        <div class="section-work-label">
+                            <p class="section-work-text">Десктопные приложения</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <img src="./images/box2.jpg" alt="Разработка мобильных приложений" width="370" height="294">
+                        <div class="section-work-label">
+                            <p class="section-work-text">Мобильные приложения</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <img src="./images/box3.jpg" alt="Дизайн студия" width="370" height="294">
+                        <div class="section-work-label">
+                            <p class="section-work-text">Дизайнерские решения</p>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -346,5 +361,13 @@
             </div>
         </div>
     </footer>
+
+    <div class="backdrop" data-modal>
+        <div class="modal">
+            <button data-modal-close type="button" class="close">close</button>
+        </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
 </body>
 </html>
