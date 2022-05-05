@@ -787,14 +787,14 @@ color: var(--accent-color);
 }
 
 .backdrop.is-hidden .modal {
-    transform: translate(-50%, -50%) scale(0.2) rotate(270deg);
+    transform: translate(-50%, -50%) translateY(100%);
 }
 
 .modal {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) translateY(0);
     transition: transform 500ms var(--time-function);
 
     width: 528px;
