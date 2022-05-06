@@ -118,7 +118,7 @@ ul {
     content:"" ;
 
     position: absolute;
-    bottom: 0;
+    bottom: -2px;
     display: block;
     width: 100%;
     height: 4px;
@@ -133,7 +133,7 @@ ul {
     opacity: 1;
 }
 
-.site-nav .link.link:hover::after,
+/* .site-nav .link.link:hover::after, */
 .site-nav .link.link:focus::after {
     opacity: 1;
 }
@@ -787,7 +787,7 @@ color: var(--accent-color);
 }
 
 .backdrop.is-hidden .modal {
-    transform: translate(-50%, -50%) translateY(100%);
+    transform: translate(-50%, -50%) translateY(150%);
 }
 
 .modal {
@@ -822,6 +822,43 @@ color: var(--accent-color);
 .modal-icon { 
     width: 30px;
     height: 30px;
+}
+
+.modal-form {
+    display: block;
+}
+
+textarea {
+    resize: none;
+}
+
+.modal-form {
+    width: 448px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.form-field {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;  
+}
+
+.modal-title {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.form-field input {
+    width: 100%;
 }
 
 
