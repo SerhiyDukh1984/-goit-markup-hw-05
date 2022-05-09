@@ -359,7 +359,21 @@
                     </li>
                 </ul>
             </div>
+
+            <form class="footer-form">
+                <h2 class="footer-form-title">Подпишитесь на рассылку</h2>
+                <label type="email" id="email">
+                    <input class="footer-input" type="email" name="email" placeholder="E-mail">
+                </label>
+                <button type="submit" class="footer-form-button">Подписаться
+                <svg class="footer-form-icon">
+                    <use href="./images/sprite.svg#icon-icon-send"></use>
+                </svg> 
+                </button>
+            </form>
         </div>
+
+        
     </footer>
 
     <div class="backdrop is-hidden" data-modal>
@@ -368,24 +382,39 @@
                 <use href="./images/sprite.svg#icon-close"></use>
             </svg></button>
         
-            <form class="modal-form">
-                <h2  class="modal-title"> Оставьте свои данные, мы вам перезвоним</h2>
+            <form class="form">
+                <h2  class="title"> Оставьте свои данные, мы вам перезвоним</h2>
                 <div class="form-field">
-                    <label class="form-field-lable" for="name" type="name" id="name">Имя
-                        <input class="form-field-input" type="name">
+                    <label class="form-field-lable" type="name" id="name">Имя
+                        <span class="form-wrapper">
+                            <input class="form-input" type="text" name="name">
+                            <svg class="form-icon">
+                                <use href="./images/sprite.svg#icon-name"></use>
+                            </svg>
+                        </span>
                     </label>
                 
-                    <label class="form-field-lable"  for="tel" type="tel" id="tel">Телефон
-                        <input class="form-field-input" type="tel">
+                    <label class="form-field-lable" type="tel" id="tel">Телефон
+                        <span class="form-wrapper">
+                            <input class="form-input" type="tel" name="tel">
+                            <svg class="form-icon">
+                                <use href="./images/sprite.svg#icon-phone"></use>
+                            </svg>
+                        </span>
                     </label>
                 
-                    <label class="form-field-lable" for="email" type="email" id="email">Почта
-                        <input class="form-field-input" type="email">
+                    <label class="form-field-lable" type="email" id="email">Почта
+                        <span class="form-wrapper">
+                            <input class="form-input" type="email" name="email">
+                            <svg class="form-icon">
+                                <use href="./images/sprite.svg#icon-email"></use>
+                            </svg>
+                        </span>
                     </label>
                 </div>
-                <div class="form-field">
-                    <label for="coment">Комментарий</label>
-                    <textarea class="textarea" name="coment" id="coment" cols="30" rows="8" placeholder="Введите текст"></textarea>
+                <div class="form-coment">
+                    <label class="form-coment-lable" type="coment">Комментарий</label>
+                    <textarea class="textarea" name="coment" id="coment" cols="30" rows="8" placeholder="Введите текст"></textarea> 
                 </div>
                 <input type="checkbox" name="" id="">
                 <label class="form-text" for="">Соглашаюсь с рассылкой и принимаю</label>
