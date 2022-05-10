@@ -31,12 +31,12 @@
     
                 <ul class="site-contacts list">
                     <li class="item">
-                        <a href="" class="link"><svg class="site-contacts-icon" width="16px" heigth="12px">
+                        <a href="" class="link"><svg class="site-contacts-icon">
                                 <use href="./images/sprite.svg#icon-envelope-hover"></use>
                             </svg>info@devstudio.com</a>
                     </li>
                     <li class="item">
-                        <a href="" class="link"><svg class="site-contacts-icon" width="10px" heigth="16px">
+                        <a href="" class="link"><svg class="site-contacts-icon">
                                 <use href="./images/sprite.svg#icon-Vector"></use>
                             </svg>+38 096 111 11 11</a>
                     </li>
@@ -52,7 +52,7 @@
                 <ul class="filter-list list">
                     <li class="filter-item"><button class="button" type="button">Всё</button></li>
                     <li class="filter-item"><button class="button" type="button">Веб-сайты</button></li>
-                    <l class="filter-item"i><button class="button" type="button">Приложения</button></l>
+                    <li class="filter-item"><button class="button" type="button">Приложения</button></li>
                     <li class="filter-item"><button class="button" type="button">Дизайн</button></li>
                     <li class="filter-item"><button class="button" type="button">Маркетинг</button></li>
                 </ul>
@@ -244,7 +244,7 @@
     <footer class="footer">
         <div class="container">
             <div>
-                <address class="adress"></address>
+                <address class="adress">
                 <a class="logo" href="./index.html"><span class="accent">Web</span>Studio</a>
                 <ul class="footer-list list">
                     <li class="footer-list-item"><a class="footer-link" href="">г. Киев, пр-т Леси Украинки, 26</a></li>
@@ -259,34 +259,46 @@
                 <ul class="footer-soc-list">
                     <li class="footer-soc-list">
                         <a class="social-link" href="">
-                            <svg class="icon" width="20px" heigth="20px">
+                            <svg class="icon">
                                 <use href="./images/sprite.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="footer-soc-list">
                         <a class="social-link" href="">
-                            <svg class="icon" width="20px" heigth="20px">
+                            <svg class="icon">
                                 <use href="./images/sprite.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="footer-soc-list">
                         <a class="social-link" href="">
-                            <svg class="icon" width="20px" heigth="20px">
+                            <svg class="icon">
                                 <use href="./images/sprite.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="footer-soc-list">
                         <a class="social-link" href="">
-                            <svg class="icon" width="20px" heigth="20px">
+                            <svg class="icon">
                                 <use href="./images/sprite.svg#icon-linkedin"></use>
                             </svg>
                         </a>
                     </li>
                 </ul>
             </div>
+    
+            <form class="footer-form">
+                <h2 class="footer-form-title">Подпишитесь на рассылку</h2>
+                <label type="email" id="email">
+                    <input class="footer-input" type="email" name="email" placeholder="E-mail">
+                </label>
+                <button type="submit" class="footer-form-button">Подписаться
+                    <svg class="footer-form-icon">
+                        <use href="./images/sprite.svg#icon-icon-send"></use>
+                    </svg>
+                </button>
+            </form>
         </div>
     </footer>
     

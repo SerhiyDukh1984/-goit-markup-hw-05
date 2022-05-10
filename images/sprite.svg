@@ -134,5 +134,8 @@
         <symbol id="icon-icon-send" viewBox="0 0 30 30">
             <path fill="#fff" style="fill:var(--color1, #fff)" d="M30 0 0 16.875l9.587 3.551L24.375 6.563 13.127 21.737l.009.003-.011-.003V30l5.377-6.273 6.811 2.523L30 0z"/>
         </symbol>
+        <symbol id="icon-check" viewBox="0 0 19 15">
+            <path fill="#fff" style="fill:var(--color1, #fff);stroke:var(--color1, #fff)" stroke="#fff" stroke-width=".3" d="m2.936 7.127-.103-.098-1.55 1.468 5.461 5.21L18.218 2.761l-1.54-1.469-9.934 9.468-3.808-3.633z"/>
+        </symbol>
     </defs>
 </svg>
